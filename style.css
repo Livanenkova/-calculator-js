@@ -1,0 +1,55 @@
+body {
+ background: #100a1c;
+ color: #6cacc5;
+ font: 300 18px/1.6 "Source Sans Pro",sans-serif;
+ margin: 0;
+ padding: 5em 0 2em;
+ text-align: center;
+}
+
+.calculator {
+ font-size: 28px;
+ margin: 0 auto;
+ width: 10em;
+}
+
+.viewer {
+ color: #c97874;
+ background-color: #BDBDBD;
+ float: left;
+ line-height: 3em;
+ text-align: right;
+ text-overflow: ellipsis;
+ overflow: hidden;
+ width: 7.2em;
+ height: 2.5em;
+ border-radius: 5px;
+}
+
+button {
+ border: 0;
+ background: #0B0B3B;
+ color: #6cacc5;
+ cursor: pointer;
+ float: left;
+ font: inherit;
+ margin: 0.25em;
+ width: 2em;
+ height: 2em;
+ transition: all 0.5s;
+ border-radius: 7px;
+ border: 2px solid #084B8A
+}
+
+.reset {
+ background: gray;
+ color:#c97874;
+ font-weight: 400;
+ margin-left: -77px;
+ padding: 0.5em 1em;
+ position: absolute;
+ top: -20em;
+ left: 50%;
+ width: auto;
+ height: auto;
+}
