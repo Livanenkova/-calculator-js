@@ -21,12 +21,12 @@ body {
  text-align: right;
  text-overflow: ellipsis;
  overflow: hidden;
- width: 7.2em;
- height: 2.5em;
+ width: 200px;
+ height: 70px;
  border-radius: 5px;
 }
 
-button {
+.push {
  border: 0;
  background: #0B0B3B;
  color: #6cacc5;
